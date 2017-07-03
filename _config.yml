@@ -1,0 +1,22 @@
+# Site settings
+title: Practica
+email: projectfluency@gmail.com
+url: "http://practica.me"
+description: "Language practice for real life."
+summary: "Enabling Language Practice in Everyday Life"
+logo: "/img/Logo.png"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Footer settings
+footer: Practica
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+
+# Build settings
+markdown: kramdown
+permalink: pretty
