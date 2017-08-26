@@ -1,2 +1,3 @@
 {% include css/bootstrap.min.css %}
-{% include css/grayscale.css %}
+{% include css/bootstrap.min.css.map %}
+{% include css/practica.css %}

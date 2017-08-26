@@ -1,0 +1,91 @@
+.logo {
+  background-image: url(/img/logo.practica_blue.gif) repeat 0 0;
+}
+.dim {
+  opacity: 0.5;
+}
+body, button {
+  font-family: Lato;
+}
+label {
+  font-size: 14px;
+  font-weight: bold;
+}
+.on-blue {
+  background: rgba(87,210,251,1);
+  color: white;
+}
+.blue {
+  color: rgba(87,210,251,1);
+}
+.center {
+  text-align: center;
+}
+.floater {
+  padding-right: 3vw;
+  padding-left: 3vw;
+}
+.floater-icon {
+  max-width: 50%;
+  max-height: 50%;
+  margin-bottom: 20px;
+}
+
+/* STUFF THAT IS SEPARATED BY SCREEN WIDTH */
+/* MOBILE STUFF */
+@media (max-width: 767px) {
+  div {
+    text-align: center;
+  }
+  .vertical-spacer {
+    height: 5vh;
+  }
+  .mini-vertical-spacer {
+    height: 1vh;
+  }
+  img.logo {
+    max-width: 55%;
+  }
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 2vh;
+    padding-left: 2vh;
+  }
+  .subtitle {
+    font-size: 16px;
+  }
+  .text-form {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .big-gif {
+    width: 100%;
+  }
+}
+/* TABLET AND DESKTOP STUFF */
+@media (min-width: 768px) {
+    div {
+        text-align: left;
+    }
+    .mini-vertical-spacer {
+      height: 2vh;
+    }
+    .vertical-spacer {
+      min-height: 10vh;
+    }
+    img.logo {
+      width: 280px;
+      margin-left: -20px;
+    }
+    .title {
+      font-size: 26px;
+      font-weight: bold;
+    }
+    .text-form {
+      padding: 0;
+    }
+    .big-gif {
+      max-width: 90%;
+    }
+}
