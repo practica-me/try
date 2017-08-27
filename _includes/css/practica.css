@@ -87,5 +87,7 @@ label {
     }
     .big-gif {
       max-width: 90%;
+      max-height: 90%;
+      margin: -10px 0 0 60px;
     }
 }
